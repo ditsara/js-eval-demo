@@ -1,0 +1,23 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title></title>
+  <script src="lib/angular.min.js"></script>
+  <script src="application.js"></script>
+
+</head>
+<body ng-app="ss">
+  <div ng-controller="demo">
+    {{hello}}
+    <p>
+      <input type="text" ng-model="a1"/>
+    </p>
+    <p>
+      <input type="text" ng-model="a2"/>
+      {{a2_eval()}}
+    </p>
+    
+  </div>
+</body>
+</html>
